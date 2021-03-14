@@ -1,0 +1,379 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    outline: 0;
+
+}
+
+#dark-mode{
+
+    background-color: #121212;
+
+    overflow-x: hidden;
+
+    position: relative;
+
+    height: 100%;
+
+    animation-direction: alternate;
+
+    top: 45px;
+
+}
+
+p{
+
+    color: white;
+
+    text-align: left;
+
+    padding-left: 100px;
+
+    padding-right: 100px;
+
+}
+
+.center-title{
+
+    font-family: Poppins;
+
+    color: purple;
+
+    text-align: left;
+
+    text-decoration-color: none;
+
+}
+
+.center-normal{
+
+    font-family: Poppins;
+
+    font-size: 25px;
+
+    color: purple;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    padding-right: 100px;
+
+    padding-left: 100px;
+
+}
+
+.des-normal{
+
+    font-family: Poppins;
+
+    font-size: 25px;
+
+    color: grey;
+
+    text-align: center;
+
+    padding-right: 100px;
+
+    padding-left: 100px;
+
+}
+
+hr{
+
+    height: 1px;
+
+    margin-left: 100px;
+
+    margin-right: 100px;
+
+    background-color: grey;
+
+    border: 0px none;
+
+}
+
+.left-title{
+
+    font-family: Poppins;
+
+    color: purple;
+
+    text-align: left;
+
+    padding-left: 100px;
+
+    padding-right: 100px;
+
+}
+
+h1{
+
+    font-family: Poppins;
+
+    text-align: left;
+
+    color: purple;
+
+    padding-left: 100px;
+
+    padding-right: 100px;
+
+}
+
+.btn{
+
+    border: purple;
+
+    background-color: purple;
+
+    padding: 5px 29px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    text-align: center;
+
+  }
+
+  .btn:hover{background: white}
+
+  .success{color: white}
+
+  .info{color: yellow}
+
+  .warning{color: orange}
+
+  .danger{color: red}
+
+  .default{color: black}
+
+  .round{border-radius: 20px}
+
+  @font-face{src:url(https://www.unityofindonesia.xyz/fonts/Poppins-Bold.ttf);font-family: pb}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face{src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);font-family: rr;}
+
+.req{
+
+    font-family: Poppins;
+
+    color: white;
+
+}
+
+.center{
+
+    text-align: center;
+
+    font-size: 10px;
+
+    padding-left: 100px;
+
+    padding-right: 100px;
+
+}
+
+.robo{
+
+    font-family: Roboto;
+
+}
+
+.link-button{
+
+    color: black;
+
+    text-decoration-color: none;
+
+}
+
+a:hover{
+
+    text-decoration-color: none;
+
+}
+
+.boxed{
+
+    background-color: rgb(32, 31, 31);
+
+    border: 10px solid #121212;
+
+    margin-left: 100px;
+
+    margin-right: 100px;
+
+}
+
+.footer-title{
+
+    font-family: Poppins;
+
+    color: purple;
+
+    text-align: center;
+
+    font-size: 20px;
+
+}
+
+i{
+
+    color: white;
+
+}
+
+#donasi{
+
+    border-collapse: collapse;
+
+    border-color: gray;
+
+    color: white;
+
+    font-family: Roboto;
+
+    margin-left: 100px;
+
+    margin-right: 100px;
+
+    width: 100%;
+
+  }
+
+  #donasi td{
+
+    border: 1px solid transparent;
+
+    padding: 9px
+
+  }
+
+  #donasi th{
+
+    padding-top: 12px;
+
+    padding-bottom: 12px;
+
+    text-align: center;
+
+    background-color: #121212;
+
+    color: purple;
+
+  }
+
+  #donasi tr:nth-child(2){background-color: gray;}
+
+  thead{
+
+      color: white;
+
+  }
+
+  .sp{
+
+    padding-left: 100px;
+
+    padding-right: 100px
+
+  }
+
+  a{
+
+    text-decoration-color: none;
+
+  }
+
+  .banner{
+
+    max-width: 100%;
+
+    height: auto;
+
+  }
+
+  @media screen and (max-width: 800px){
+
+    p{
+
+        padding-left: 10px;
+
+        padding-right: 10px;
+
+    }
+
+    hr{
+
+        margin-left: 10px;
+
+        margin-right: 10px;
+
+    }
+
+    .center-normal{
+
+        padding-left: 10px;
+
+        padding-right: 10px;
+
+    }
+
+    .left-title{
+
+        padding-left: 10px;
+
+        padding-right: 10px;
+
+    }
+
+    .des-normal{
+
+        padding-left: 10px;
+
+        padding-right: 10px
+
+    }
+
+    h1{
+
+        padding-left: 10px;
+
+        padding-right: 10px
+
+    }
+
+    #donasi{
+
+        margin-left: 10px;
+
+        margin-right: 10px;
+
+    }
+
+    .sp{
+
+        padding-left: 10px;
+
+        padding-right: 10px
+
+    }
+
+    .center{
+
+        font-size: 5px;
+
+        padding-left: 10px;
+
+        padding-right: 10px
+
+    }
+
+  }
